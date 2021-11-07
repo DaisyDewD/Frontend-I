@@ -13,24 +13,24 @@ body{
 }
 header{
   
-    background-color: rgb(39, 9, 63);
+    background-color: #27093f;
 }
 nav{
     
     font-size: 20px;
-    background-color: rgb(39, 9, 63);
+    background-color: #27093f;
 }
 
 a{
-    color: rgb(0, 130, 182);
+    color: #0082b6;
   }
   
   a:hover{
-    color: rgb(39, 9, 63);
+    color: rgb(0, 255, 255);
   }
   
   a:active{
-    color: rgb(39, 9, 63);
+    color: #27093f;
   }
   
 
@@ -39,33 +39,33 @@ h1{
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color:rgb(39, 9, 63);
+    background-color:#27093f;
     color: white;
 }
 h2 {
     margin-top: 10px;
-    color: rgb(39, 9, 63);
+    color: #27093f;
 }
 section#CV .fas{
-    color:rgb(39, 9, 63);
+    color:#27093f;
     size: 20px;
     font-size: 80px;
     margin: 10px;
 }
 section#pie .fas{
-    color:rgb(213, 236, 42);
+    color:#d5ec2a;
     size: 20px;
     font-size: 80px;
     margin: 10px;
 }
 section#pet .fas{
-    color:rgb(144, 60, 0);
+    color:#903c00;
     size: 20px;
     font-size: 80px;
     margin: 10px;
 }
 
 footer#logos .ul{
-    color: rgb(39, 9, 63);
+    color: #27093f;
 }
 

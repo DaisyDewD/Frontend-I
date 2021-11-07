@@ -1,27 +1,66 @@
 
-
 *{
     padding: 0;
     margin: 0;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    background-color: #f0c18d;
+    background-color: #fff0df;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c99b41' fill-opacity='0.08' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  
 }
+
 section{
-    margin-top: 20px;
+  
+}
+
+div.texto_banner{
+    background-color: #3e2c0065;
+    padding: 20px;
 }
 .banner{
     background-image: url(./img/lemon-pie\ 1.jpg);
+    opacity: 100%;
     background-size: cover;
     background-attachment: fixed;
     height: 343px;
-
-    color: #fff;
-    padding: 20px;
+    color: #ffffff;
+    
 }
+
+section.banner ~ section ul{
+    max-width: 800px;
+    margin-left: 50px;
+}
+
+section.banner ~ section ol{
+    max-width: 800px;
+    margin-left: 50px;
+}
+
 h1{
+
     font-weight: bold;
     font-size: 40px;
+    color: #a2b037;
+    text-shadow: rgb(7, 7, 62);
+    
 }
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #a2b037;
+}
+ol{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+li{
+    margin: 10px;
+}
+p{margin:20px ;}
 
