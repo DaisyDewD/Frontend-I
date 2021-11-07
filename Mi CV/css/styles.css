@@ -9,14 +9,14 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
-#picprofile{
+#logo{
     width: 10%;
 }
 section{
     margin-top: 20px;
 }
 .banner{
-    background-image: url(./img/pexels-anni-roenkae-2156881.jpg);
+    background-image: url(../img/pexels-anni-roenkae-2156881.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 200px;
@@ -25,6 +25,7 @@ section{
     padding: 20px;
     font-size: 30px;
 }
+
 #up{
     color: rgb(23, 180, 228);
 }
@@ -34,12 +35,8 @@ h1{
 
 }
 h2{
-    background-color: rgb(23, 180, 228);
-    color: #210B61;
-}
-.bullet{
-    color: rgb(154, 127, 244);
-    font-weight: normal;
+    background-color: #210B61;
+    color: rgb(255, 255, 255);
 }
 dl{
     display: block;
@@ -52,7 +49,11 @@ dl{
 li{
     font-weight: bold;
 }
-
+.date{
+    color: rgb(154, 127, 244);
+    margin-left: 20px;
+    font-weight: normal;
+}
 p.copyright{
     font-size: 15px;
     margin-bottom: 15px;
