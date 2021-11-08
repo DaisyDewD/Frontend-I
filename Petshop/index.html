@@ -4,69 +4,94 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hola mundo</title>
+        <title>Pet shop</title>
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        
+          <!-- Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+       
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     
     <body>
         <header>
-        <section title="Barra superior">
-        <ul>
-          
-            <li title="Menú regional" type="none">Grandes ofertas en comederos</li>
-            
-                <ul type="disc">
-                    <li> <a href="#">Español</a></li>
-                    <li><a href="#">$ARG</a></li>
+        <section title="Barra superior" class="superior">
+        <ul class="regional">
+            <li title="Menú regional" type="none" >Grandes ofertas en comederos</li>
+                <ul type="none">
+                <li> <a href="#">Español</a></li>
+                <li><a href="#">$ARG</a></li>
                 </ul>
-            
         </ul>
 
         </section>
-        <section title="Barra de menú principal">
+
+        <section title="Barra de menú principal" class="header">
             <ul title="Menú principal">
                 <img src="./img/Logo.png" alt="logo pet">
-                <ul type="disc">
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                <ul>
+                    <li><img src="img/pawprint 2.png"><a href="#">Categorías</a></li>
+                    <li><img src="img/pawprint 2.png"><a href="#">Pets</a></li>
+                    <li><img src="img/pawprint 2.png"><a href="#">Nosotros</a></li>
+                    <li><img src="img/pawprint 2.png"><a href="#">Contáctanos</a></li>
                 </ul>
             </ul>
     
-            </section>
+        </section>
         </header>
         <main>
-           <section title="Banner">
-            <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="imagen background">
+           <section title="Banner" class="banner">
             <h2>¡Es un placer tenerte aquí!</h2>
             <p>¡Comederos en descuento!</p>
             <button>COMEDEROS</button>
+            <img src="img/bowl-and-pet-daities-on-green-background.png" alt="banner">
            </section>
 
-           <section title="Productos">
+           <section title="Productos" class="destacado">
                <img src="img/pawprint 1.png" alt="Huellita">
                <h1>Productos Destacados</h1>
                <p>Comederos - Accesorios - Comida</p>
-                <section title="Producto1">
-                    <img src="img/churrasquito.png">
-                    <h3>Juguete Churrasquito</h3>
-                    <p title="Precio">$150</p>
-                </section>
-                <section title="Producto2">
-                    <img src="img/comedero.png">
-                    <h3>Comedero para perro</h3>
-                    <p title="Precio">$250</p>
-                </section>
-                <section title="Producto3">
-                    <img src="img/Huesito.png">
-                    <h3>Juguete Huesito</h3>
-                    <p title="Precio">$650</p>
-                </section>
-           </section>
+           </section>   
+           <div id="productos">
+           <section title="Producto1">
+                <img src="img/churrasquito.png">
+                <h3>Juguete Churrasquito</h3>
+                <p title="Precio">$150</p>
+            </section>
+            <section title="Producto2">
+                <img src="img/comedero.png">
+                <h3>Comedero para perro</h3>
+                <p title="Precio">$250</p>
+            </section>
+            <section title="Producto3">
+                <img src="img/Huesito.png">
+                <h3>Juguete Huesito</h3>
+                <p title="Precio">$650</p>
+            </section>
+           </div>
         </main>
         <footer>
-            <hr></hr>
-            <p style="text-align: centergit;">Todos los derechos reservados Front End.</p> 
+
+            <img src="img/Location.png" alt="">
+            <h3>Localidad</h3>
+            <span>Calle - Provincia</span>
+            <br>
+            <img src="img/Telefono.png" alt="">
+            <h3>Número de Telefono</h3>
+            <span>1234 - 5678</span>
+            <br>
+            <img src="img/Email.png" alt="">
+            <h3>Correo Electrónico</h3>
+            <span>pet.shop@email.com</span>
+            <br>
+            <img src="img/Logo2.png" alt="">
+    
+            <p class="copyright">Todos los derechos reservados FrontEnd </p>
         </footer>
     </body>
 </html>

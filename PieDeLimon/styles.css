@@ -13,17 +13,12 @@ body{
   
 }
 
-section{
-  
-}
-
 div.texto_banner{
     background-color: #3e2c0065;
     padding: 20px;
 }
 .banner{
     background-image: url(./img/lemon-pie\ 1.jpg);
-    opacity: 100%;
     background-size: cover;
     background-attachment: fixed;
     height: 343px;

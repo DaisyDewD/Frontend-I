@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.superior{
+   background-color:#222222;
+   color: white;
+}
+.header{
+    background-color: #F0A83E;
+    color: white;
+}
+.regional{
+    margin-left: 20px;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner{
+    /* background-image: url(/Petshop/img/bowl-and-pet-daities-on-green-background.png); */
+    color: black;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 343px;
+}
+h2{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+div#productos p{
+    text-align: left;
+    color: #F0A83E;
+}
+p{
+    text-align: center;
+}
+
+
+button{
+    text-align: center;
+}
+
+.destacado h1{
+    font-weight: bold;
+    text-align: center;
+}
+p.copyright{
+    font-size: 15px;
+    margin-top: 15px;
+    background-color:#F0A83E;
+
+}
+footer{
+    background-color: #3C2313;
+    font-size: 15px;
+    align-items: left;
+    text-align: left;
+    color: white;
+    size: 4x;
+}
