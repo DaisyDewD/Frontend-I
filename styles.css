@@ -4,6 +4,7 @@
    
 }
 body{
+    box-sizing: border-box;
     font-family: 'Libre Baskerville', 'Roboto', sans-serif;
     font-weight: normal;
     text-align: center;
@@ -15,6 +16,7 @@ header{
   
     background-color: #27093f;
 }
+
 nav{
     
     font-size: 20px;
@@ -50,20 +52,74 @@ section#CV .fas{
     color:#27093f;
     size: 20px;
     font-size: 80px;
-    margin: 10px;
+    margin: 40px;
 }
 section#pie .fas{
     color:#d5ec2a;
     size: 20px;
     font-size: 80px;
-    margin: 10px;
+    margin: 40px;
 }
 section#pet .fas{
     color:#903c00;
     size: 20px;
     font-size: 80px;
-    margin: 10px;
+    margin: 40px;
 }
+section#heroes .fab{
+    color:#b60000;
+    size: 20px;
+    font-size: 80px;
+    margin: 40px;
+}
+.caja{
+    padding: 30px;
+    height: 200px;
+}
+.flex-container {
+    margin: 50px 10px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: stretch;
+    }
+ 
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 25%;
+   
+    position: absolute;
+   
+    }
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 25%;
+    
+    position: absolute;
+    }
+
+.flex-item:nth-child(3) {
+    order: 0;
+    flex: 25%;
+  
+    position: absolute;
+    }
+
+.flex-item:nth-child(4) {
+    order: 0;
+    flex: 25%;
+          
+    position: absolute;
+    }
+
+@media (max-width: 800px) {
+    .flex-item:nth-child(1), .flex-item:nth-child(2), .flex-item:nth-child(3), .flex-item:nth-child(4) {
+flex: 100%;
+}
+          }
 
 footer#logos .ul{
     color: #27093f;
