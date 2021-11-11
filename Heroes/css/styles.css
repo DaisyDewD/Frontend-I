@@ -97,27 +97,27 @@ article.articles{
 }
 
 .picprofile-1{
-    background-image: url(/Heroes/img/b.png);
+    background-image: url(../img/b.png);
 }
 
 .img-header-1{
-    background-image: url(/Heroes/img/fondo-b.png);
+    background-image: url(../img/fondo-b.png);
 }
 
 .picprofile-2{
-    background-image: url(/Heroes/img/hq.png);
+    background-image: url(../img/hq.png);
 }
 
 .img-header-2{
-    background-image: url(/Heroes/img/fondo-hq.png);
+    background-image: url(../img/fondo-hq.png);
 }
 
 .picprofile-3{
-    background-image: url(/Heroes/img/superman.jpg);
+    background-image: url(../img/superman.jpg);
 }
 
 .img-header-3{
-    background-image: url(/Heroes/img/bg-superman.jpg);
+    background-image: url(..//img/bg-superman.jpg);
 }
 
 
