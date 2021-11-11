@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    --color-blue:  #00669F;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+header{
+    background-color: var(--color-blue);
+    box-shadow: 0px 10px 7px #00000040;  
+    height: auto;
+    padding-left: 2%;
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+}
+
+h1{ /* heroes */
+    padding: 30px 1px;
+    font-weight:bolder;
+    font-size: 35px;
+    color: #00263b;
+    background-color: #00649e;
+    /* padding-top: 36px;
+    padding-left: 28px;
+    padding-bottom:36px ; */
+}
+
+h2{ /* descuentos */
+    background-color: #1CD1B0;
+    color: #2c2c2c;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: normal;
+}
+
+h3{ /* Titulo artículo */
+    text-align: center;
+    font-style: normal;
+    padding-top: 20px;
+    
+}
+
+
+section.articulos{
+    text-align: center;
+    margin: 100px auto;
+}
+
+article.articles{
+    background-color: #F3F3F3;
+    border-radius: 15px 15px 0 0;
+    filter: drop-shadow(0px 3px 1px #00000029);
+    margin: 20px;
+    width: 300px;   
+    display:inline-table; 
+}
+
+.articles-header{
+    margin-bottom: 50px;
+    position: relative;  
+}
+
+.fa-heart{
+    color: #CC2424;
+    font-size: 2em;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 10;
+}
+
+.container{ 
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left: 30%;
+}
+.fondo-header{
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+.fondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.picprofile-1{
+    background-image: url(/Heroes/img/b.png);
+}
+
+.img-header-1{
+    background-image: url(/Heroes/img/fondo-b.png);
+}
+
+.picprofile-2{
+    background-image: url(/Heroes/img/hq.png);
+}
+
+.img-header-2{
+    background-image: url(/Heroes/img/fondo-hq.png);
+}
+
+.picprofile-3{
+    background-image: url(/Heroes/img/superman.jpg);
+}
+
+.img-header-3{
+    background-image: url(/Heroes/img/bg-superman.jpg);
+}
+
+
+section > div {
+    background-color: #F3F3F3;
+    text-align: center;
+    padding: 100px 15px 15px;
+}
+main {
+    text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+article button {
+    background-color: #00669f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+a.button-ver {
+ background-color: var(--color-blue);
+    color: #5cc3ff;
+    padding: 15px;
+    text-decoration: none;
+}
+p {
+    margin: 10px;
+}
+
+
+p.copyright{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+footer{
+        background-color: var(--color-blue);
+        color: white;
+        text-align: center;
+        padding: 5px;
+        bottom: 0;
+}
