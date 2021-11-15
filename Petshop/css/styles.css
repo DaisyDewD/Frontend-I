@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -10,48 +11,238 @@ body{
 .superior{
    background-color:#222222;
    color: white;
+   display: flex;
+   justify-content: space-between;
+   font-size: 12px;
 }
-.header{
+
+.supl{
+    display: flex;
+    flex-direction:row;
+}
+
+.supmenu ul {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    align-items: space-around;
+    padding: 5px 20px 5px;
+    
+}
+.navbar{
     background-color: #F0A83E;
     color: white;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 10px 40px;
 }
-.regional{
-    margin-left: 20px;
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
 }
+
+
+.textbanner{
+    color: #3C2313;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 443px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px; 
+}
+
 h1{
     font-weight: bold;
     font-size: 40px;
+    color: #3C2313;
 }
-.banner{
-    /* background-image: url(/Petshop/img/bowl-and-pet-daities-on-green-background.png); */
-    color: black;
-    background-size: cover;
-    background-attachment:fixed;
-    height: 343px;
-}
+
 h2{
     background-color: #ffffff;
-    color: #000000;
+    border-radius: 5px;
+    color: #3C2313;
     text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 30px;
 }
 
-div#productos p{
-    text-align: left;
-    color: #F0A83E;
+h2.button{
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
 }
+
+h3{
+    color: #3C2313;
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 p{
     text-align: center;
+    margin: auto 20px;
 }
-
-
-button{
+p.pbanner{
     text-align: center;
+    margin: auto 20px;
+    font-size: 16px;
 }
 
-.destacado h1{
+p.precio{
+    text-align: center;
+    margin: auto 20px;
+    color:#F0A83E;
+    justify-items: flex-end;
+}
+
+.fprint{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+.destacado{
     font-weight: bold;
     text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
+
+section.productos-destacados{
+    text-align: center;
+    margin: 50px;
+    align-items: flex-start;
+    display: flex;  
+    height: 300px; 
+    justify-content: center;
+}
+
+article.productos{
+    background-color:#FBFAF6;
+    margin: 20px;
+    width: 300px;   
+    height: 300px;  
+    align-items: flex-start;
+   
+}
+
+.producto-img{
+    margin-bottom: 50px;
+    position: relative;  
+}
+
+.img-producto{
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+.fondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-producto1{
+    background-image: url(../img/churrasquito.png);
+}
+
+.img-producto2{
+    background-image: url(../img/comedero.png);
+}
+
+.img-producto3{
+    background-image: url(../img/Huesito.png);
+}
+
+
+
+main {
+    text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+article button {
+    background-color: #00669f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+a.button-ver {
+ background-color: var(--color-blue);
+    color: #5cc3ff;
+    padding: 15px;
+    text-decoration: none;
+}
+p {
+    margin: 10px;
+}
+/*--------------*/
+
+.enlaces2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+font-size: 15px;
+color:  #3C2313 ;
+}
+
+.supmenu a{
+    background-color: var(--color-blue);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+ 
+.enlaces a{
+    background-color: var(--color-blue);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.button a{
+    background-color: var(--color-blue);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.enlaces2 a{
+    background-color: var(--color-blue);
+    color: #3C2313;
+    text-decoration: none;
+}
+
 p.copyright{
     font-size: 15px;
     margin-top: 15px;

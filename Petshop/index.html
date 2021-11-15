@@ -20,61 +20,84 @@
     
     <body>
         <header>
-        <section title="Barra superior" class="superior">
-        <ul class="regional">
-            <li title="Menú regional" type="none" >Grandes ofertas en comederos</li>
-                <ul type="none">
-                <li> <a href="#">Español</a></li>
-                <li><a href="#">$ARG</a></li>
-                </ul>
-        </ul>
-
-        </section>
-
-        <section title="Barra de menú principal" class="header">
-            <ul title="Menú principal">
-                <img src="./img/Logo.png" alt="logo pet">
-                <ul>
-                    <li><img src="img/pawprint 2.png"><a href="#">Categorías</a></li>
-                    <li><img src="img/pawprint 2.png"><a href="#">Pets</a></li>
-                    <li><img src="img/pawprint 2.png"><a href="#">Nosotros</a></li>
-                    <li><img src="img/pawprint 2.png"><a href="#">Contáctanos</a></li>
-                </ul>
+        <div title="Barra superior" class="superior">
+            <div class="supl">
+            <p>Grandes ofertas en comederos</p>
+        </div>
+        <div class="supmenu">
+            <ul>
+            <li type="none"><a href="#">Español</a><img src="./img/Vector 1.png"></li>
+            <li type="none"><a href="#">$ARG</a><img src="./img/Vector 1.png"></li>
             </ul>
+        </div>
+        </div>
+
     
-        </section>
+        <div title="Menú principal" class="navbar">
+            <img src="./img/Logo.png" alt="logo pet">
+            <ul type="none" class="enlaces">
+                <li><img src="img/pawprint 2.png"><a href="#">Categorías</a></li>
+                <li><img src="img/pawprint 2.png"><a href="#">Pets</a></li>
+                <li><img src="img/pawprint 2.png"><a href="#">Nosotros</a></li>
+                <li><img src="img/pawprint 2.png"><a href="#">Contáctanos</a></li>
+            </ul>
+        </div>
         </header>
+
+
         <main>
-           <section title="Banner" class="banner">
+        <section class="banner">
+            <div class="textbanner">
             <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
-            <img src="img/bowl-and-pet-daities-on-green-background.png" alt="banner">
-           </section>
+            <p class="pbanner">¡Comederos en descuento!</p>
+            <h2 class="button"><a href="#">COMEDEROS</a></h2>
+            </div>
+        </section>
 
            <section title="Productos" class="destacado">
-               <img src="img/pawprint 1.png" alt="Huellita">
+               <div class="fprint"><img src="../Petshop/img/pawprint 1.png"></div>
                <h1>Productos Destacados</h1>
-               <p>Comederos - Accesorios - Comida</p>
+               <ul type="none" class="enlaces2">
+                <li><a href="#">Comederos</a></li>
+                <li>-</li>
+                <li><a href="#">Accesorios</a></li>
+                <li>-</li>
+                <li><a href="#">Comida</a></li>
+               </ul>
            </section>   
-           <div id="productos">
-           <section title="Producto1">
-                <img src="img/churrasquito.png">
-                <h3>Juguete Churrasquito</h3>
-                <p title="Precio">$150</p>
-            </section>
-            <section title="Producto2">
-                <img src="img/comedero.png">
-                <h3>Comedero para perro</h3>
-                <p title="Precio">$250</p>
-            </section>
-            <section title="Producto3">
-                <img src="img/Huesito.png">
-                <h3>Juguete Huesito</h3>
-                <p title="Precio">$650</p>
-            </section>
-           </div>
+
+
+            <section class=productos-destacados>
+                <article class="productos">
+                    <div class="producto-img">
+                    <div class="img-producto fondo img-producto1"></div>
+                    </div>
+                    <h3>Juguete Churrasquito</h3>
+                    <p class="precio">$150</p>
+                    </div>
+                </article>
+    
+                <article class="productos">
+                    <div class="producto-img">
+                    <div class="img-producto fondo img-producto2"></div>
+                    </div>
+                    <h3>Comedero para perro</h3>
+                    <p class="precio">$250</p>
+                    </div>
+                </article>
+                 
+    
+                <article class="productos">
+                    <div class="producto-img">
+                    <div class="img-producto fondo img-producto3"></div>
+                    </div>
+                    <h3>Juguete Huesito</h3>
+                    <p class="precio">$650</p>
+                    </div>
+                </article>
+                </section> 
         </main>
+
         <footer>
 
             <img src="img/Location.png" alt="">
